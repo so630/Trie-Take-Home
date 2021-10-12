@@ -1,0 +1,25 @@
+{
+  "name": "@theguywithcoolpens/text-for-cli",
+  "version": "1.0.0",
+  "description": "A CLI for my trie project",
+  "main": "src/index.js",
+  "bin": {
+    "@theguywithcoolpens/text-for-cli": "bin/create-project",
+    "create-project": "bin/create-project"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "trie"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
+}
