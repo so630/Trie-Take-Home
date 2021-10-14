@@ -9,12 +9,12 @@ I have created endpoints on my server which is used to extract information regar
 my endpoints are:
 
 ### GET
-`host`/all --> gets all the words in the trie
-`host`/query?q={word} --> displays list of autocomplete suggestion based on input prefix
-`host`/has?q={word} --> Searches for keyword in tree and returns if the keyword is present or not
+`host`/all --> gets all the words in the trie <br />
+`host`/query?q={word} --> displays list of autocomplete suggestion based on input prefix <br />
+`host`/has?q={word} --> Searches for keyword in tree and returns if the keyword is present or not <br />
 `host`/display --> displays the tree
 
 
 ### POST
-`host`/add --> adds a keyword to trie
-`host`/delete --> deletes a keyword from trie
+`host`/add --> adds a keyword to trie<br />
+`host`/delete --> deletes a keyword from trie<br />
