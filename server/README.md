@@ -4,7 +4,7 @@
 My server is hosted at [this](https://agile-reaches-81103.herokuapp.com) link and uses heroku as a cloud service for hosting
 
 ## How my CLI interacts with my server
-I have created endpoints on my server which is used to extract information regarding the trie
+I have created endpoints on my server which is used by my CLI to extract information regarding the trie
 
 my endpoints are with the respective commands to send a request to them are:
 
