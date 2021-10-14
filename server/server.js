@@ -174,4 +174,8 @@ app.post('/delete', function (req, res) {
     }
 })
 
+app.get('/display', function (req, res) {
+    res.json(trie);
+})
+
 app.listen(process.env.PORT);

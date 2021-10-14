@@ -72,6 +72,14 @@ export function cli(args) {
                 console.log(err);
             })
             break;
+        case 'display':
+            let link6 = 'https://agile-reaches-81103.herokuapp.com/display';
+            axios.get(link6).then((res) => {
+                console.log(res.data);
+            }).catch((err) => {
+                console.log(err);
+            })
+            break;
         case '--help':
             console.log("Here is what you can do: ");
             console.log("1. Add keyword to the trie, command: trie add [keyword]");
@@ -79,7 +87,8 @@ export function cli(args) {
             console.log("3. search for keyword in trie, command: trie has [keyword]");
             console.log("4. Return list of autocomplete suggestion based on an input prefix, command: trie find [prefix]");
             console.log("5. Display the words in the tree, command: trie all");
-            console.log("6. Quit, command: trie quit");
+            console.log("6. Display the tree, command: trie display");
+            console.log("7. Quit, command: trie quit");
             break;
     }
 }
