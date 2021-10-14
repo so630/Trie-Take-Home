@@ -2,11 +2,7 @@
 
 ## Installation
 ```bash
-git clone https://github.com/so630/trie-cli.git
-```
-then cd into the directory where you cloned and type
-```bash
-npm link
+npm install -g trie-project
 ```
 
 ## Running the program
