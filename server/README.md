@@ -16,5 +16,5 @@ my endpoints are:
 
 
 ### POST
-`host`/add --> adds a keyword to trie<br />
-`host`/delete --> deletes a keyword from trie<br />
+`host`/add?q={word} --> adds a keyword to trie<br />
+`host`/delete?q={word} --> deletes a keyword from trie<br />
